@@ -12,8 +12,6 @@
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
     <link rel="stylesheet" href="dist/css/myadmin.css">
@@ -29,8 +27,8 @@
                 <li class="nav-item">
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
-                <h2> <b>
-                    Admin - Klinik PARTNER-GIGI </b>
+                <h2 style="color: black;">
+                   <b> Admin - Klinik PARTNER-GIGI </b>
                 </h2>
             </ul>
 
@@ -73,6 +71,7 @@
                 <img src="dist/img/logo.jfif" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">PARTNER GIGI</span>
               </a>
+
             <!-- Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
@@ -105,7 +104,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item menu-open">
-                <a href="Boking.html" class="nav-link active">
+                <a href="Boking.html" class="nav-link">
                   <p>
                     <i class="far fa-circle nav-icon"></i>
                     Booking
@@ -121,7 +120,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="PRODUK.html" class="nav-link">
+                <a href="PRODUK.html" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p >
                     Produk/layanan<br>
@@ -130,7 +129,7 @@
               </li>
               <li class="nav-item">
                 <a href="index.html" class="nav-link">
-                    <i class="bi bi-check-circle-fill"></i>
+                  
                   <p>
                     Logout
                   </p>
@@ -150,13 +149,13 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Data Produk dan Layanan</h1>
+                            <h1 class="m-0">  Data Produk dan Layanan </h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb-item"><a href="Boking.html">Admin</a></li>
-                                <li class="breadcrumb-item active">Booking</li>
+                                <li class="breadcrumb-item active">Data Produk</li>
                               </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -178,19 +177,10 @@
                                             No
                                         </th>
                                         <th>
-                                            Tanggal
+                                            Nama Layanan
                                         </th>
                                         <th>
-                                            Nama Pasien
-                                        </th>
-                                        <th>
-                                            HP pasien
-                                        </th>
-                                        <th>
-                                            Dokter
-                                        </th>
-                                        <th>
-                                            Layanan
+                                            Jadwal
                                         </th>
                                         <th>
                                             Action
@@ -203,19 +193,10 @@
                                             1
                                         </td>
                                         <td>
-                                            12 Januari 2023
+                                            Perawatan Gigi Anak
                                         </td>
                                         <td>
-                                            Peri Maulana
-                                        </td>
-                                        <td>
-                                            082154359086
-                                        </td>
-                                        <td>
-                                            Dr Amelia
-                                        </td>
-                                        <td>
-                                            pemasangan gigi palsu
+                                            Senin - Sabtu
                                         </td>
                                         <td>
                                             <button type="button" 
@@ -233,22 +214,13 @@
                                             2
                                         </td>
                                         <td>
-                                            13 Januari 2023
+                                            Perawatan Gigi Dewasa
                                         </td>
                                         <td>
-                                            Reza Harahap
+                                            Senin - Sabtu
                                         </td>
                                         <td>
-                                            081309898909
-                                        </td>
-                                        <td>
-                                            Dr Rahman
-                                        </td>
-                                        <td>
-                                            perawatan gigi Dewasa
-                                        </td>
-                                        <td>
-                                            <button type="button" 
+                                            <button type="button"
                                                 class="btn btn-small bg-gradient-success btn-xs">Detail</button>
                                             |
                                             <button type="button"
@@ -263,22 +235,13 @@
                                             3
                                         </td>
                                         <td>
-                                            17 Januari 2023
+                                            Pencabutan gigi
                                         </td>
                                         <td>
-                                            Nazwa Amelia
+                                            Senin - Sabtu
                                         </td>
                                         <td>
-                                            081243453433
-                                        </td>
-                                        <td>
-                                            Dr Lulu Bintang
-                                        </td>
-                                        <td>
-                                            Penambalan gigi
-                                        </td>
-                                        <td>
-                                            <button type="button" 
+                                            <button type="button"
                                                 class="btn btn-small bg-gradient-success btn-xs">Detail</button>
                                             |
                                             <button type="button"
@@ -293,22 +256,13 @@
                                             4
                                         </td>
                                         <td>
-                                            17 Januari 2023
+                                            Pemasangan gigi palsu
                                         </td>
                                         <td>
-                                            Nahla Putri
+                                            Senin - Sabtu
                                         </td>
                                         <td>
-                                            081253428674
-                                        </td>
-                                        <td>
-                                            Dr Putri Anisa
-                                        </td>
-                                        <td>
-                                            Pencabutan Gigi
-                                        </td>
-                                        <td>
-                                            <button type="button" 
+                                            <button type="button"
                                                 class="btn btn-small bg-gradient-success btn-xs">Detail</button>
                                             |
                                             <button type="button"
@@ -318,7 +272,27 @@
                                                 class="btn btn-small bg-gradient-danger btn-xs">Delete</button>
                                         </td>
                                     </tr>
-                                    
+                                    <tr>
+                                        <td>
+                                            5
+                                        </td>
+                                        <td>
+                                            Tambal gigi
+                                        </td>
+                                        <td>
+                                            Senin - Sabtu
+                                        </td>
+                                        <td>
+                                            <button type="button"
+                                                class="btn btn-small bg-gradient-success btn-xs">Detail</button>
+                                            |
+                                            <button type="button"
+                                                class="btn btn-small bg-gradient-primary btn-xs">Edit</button>
+                                            |
+                                            <button type="button"
+                                                class="btn btn-small bg-gradient-danger btn-xs">Delete</button>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
